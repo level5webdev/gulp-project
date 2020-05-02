@@ -27,6 +27,3 @@ blocks:
           commands:
             - npm install -g gulp
             - gulp
-promotions:
-  - name: Promotion 1
-    pipeline_file: pipeline_2.yml

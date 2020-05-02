@@ -17,13 +17,6 @@ blocks:
             - cache store
             - npm install -g gulp
             - gulp
-        - name: ''
-          commands: []
-      prologue:
-        commands:
-          - checkout
-          - sem-version node 12
-          - cache restore
   - name: Gulp
     task:
       prologue:
